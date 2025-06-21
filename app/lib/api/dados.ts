@@ -1,16 +1,16 @@
 import { TabRouter } from "@react-navigation/native";
 import axios from "axios";
 import Constants from "expo-constants";
-import router from "../../../../excel-json-api/src/routes/upload";
 
 // Use http://localhost:3000 para desenvolvimento local
-const API_BASE_URL = Constants.expoConfig?.extra?.API_BASE_URL;// || "http://localhost:3000";
+const API_BASE_URL =
+  // Constants.manifest?.extra?.API_BASE_URL ||
+  Constants.expoConfig?.extra?.API_BASE_URL ||
+  "https://excel-json-api.vercel.app";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
 });
-
-
 
 export const getDados = async () => {
   
