@@ -1,13 +1,14 @@
+
 {
   "expo": {
-    "name": "ObraOrcamento",
-    "slug": "ObraOrcamento",
+    "name": "Orçamento de Obras - SINAPI",
+    "slug": "Orçamento de Obras - SINAPI",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "obraorcamento",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": true, 
     "ios": {
       "supportsTablet": true
     },
